@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/selectContacts"
+        android:icon="@drawable/select"
+        android:title="Add Emergency Contacts" />
+
+    <item
+        android:id="@+id/showPlaces"
+        android:icon="@drawable/view_plcs"
+        android:title="View Places" />
+    <item
+        android:id="@+id/sendSOS"
+        android:icon="@drawable/ic_email_24dp"
+        android:title="Send SOS Message" />
+
+
+    <item
+        android:id="@+id/shareLocation"
+        android:icon="@drawable/location"
+        android:title=" Share Location" />
+
+    <item
+        android:id="@+id/emergencyCall"
+        android:icon="@drawable/call"
+        android:title=" Emergency Call" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="LogOut" />
+
+
+</menu>
