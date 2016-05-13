@@ -1,0 +1,2 @@
+# emergency-app
+This app will turn our mobile phone into an emergency alert system.You will be connected to  the people you added for your emergency as your emergency contacts ,All you  need to do is to click an emergency button  and the message along with your location will be broadcasted to all your emergency contacts.It will also show the nearby places like atm,hospitals from your location in case they are needed at time of emergency.
