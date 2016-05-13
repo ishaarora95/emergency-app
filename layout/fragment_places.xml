@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/em">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text=" Hospitals"
+        android:id="@+id/hospitals"
+        android:layout_weight="0.66"
+        android:layout_marginTop="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#8fbeed" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text=" police stations"
+        android:id="@+id/police"
+        android:layout_below="@+id/hospitals"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#8fcdce" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text=" Atm"
+        android:id="@+id/atm"
+        android:layout_below="@+id/police"
+        android:layout_alignRight="@+id/police"
+        android:layout_alignEnd="@+id/police"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/police"
+        android:layout_alignStart="@+id/police"
+        android:background="#cce0e8" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Book a taxi"
+        android:id="@+id/taxi"
+        android:layout_below="@+id/atm"
+        android:layout_alignRight="@+id/atm"
+        android:layout_alignEnd="@+id/atm"
+        android:layout_marginTop="20dp"
+        android:background="#a2c0d5" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Click Here to View Nearby"
+        android:id="@+id/textView5"
+        android:textColor="#0f0f58"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:capitalize="words"
+        android:maxWidth="100dp"
+        android:minHeight="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:textColorHighlight="#070533"
+        android:textSize="25dp"
+        android:width="10dp" />
+
+</RelativeLayout>
